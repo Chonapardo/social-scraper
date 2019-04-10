@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 from Post import Post
 
-def login(username = '@Chona_Pardo', password = 'Frambuesal'):
+def login(username = '', password = ''):
 
 	session_requests = requests.session()
 
